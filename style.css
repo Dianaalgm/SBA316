@@ -7,10 +7,18 @@
 }
 .imgContainer{
     border: solid black;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     text-align: center;
+}
+.imgContainer2{
+    border: solid blue;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url();
 }
 .midButton{
     display: flex;
