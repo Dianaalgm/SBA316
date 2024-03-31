@@ -1,0 +1,21 @@
+.navBar{
+    border: solid black;
+    height: 10vh;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+.imgContainer{
+    border: solid black;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.midButton{
+    display: flex;
+    justify-content: center;
+}
+#pText{
+    text-align: center;
+}
