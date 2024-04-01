@@ -21,3 +21,20 @@ boxes.forEach((e) => (
     e.style.color = 'purple'
 ));
 console.log(boxes);
+
+//event listeners
+
+const titleBox = document.getElementById("box");
+function changeColor(event){
+    event.target.style.backgroundColor = "pink";
+    event.target.textContent = "We love HTML & CSS here";
+}
+titleBox.addEventListener("mouseover", changeColor);
+
+const imageBox = document.getElementById("secondBox");
+function changeBackground(events){
+    events.target.style.backgroundColor = "pink";
+}
+imageBox.addEventListener("mouseover", changeBackground);
+
+

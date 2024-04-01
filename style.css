@@ -48,3 +48,19 @@
     font-size: 22px;
     font-weight: bold;
 }
+.boxImages{
+    border: solid orange;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondBox{
+    border: solid red;
+    height: 100%;
+    width: 40%;
+    text-align: center;
+}
+.myMood{
+    height: 100%;
+    width: 70%;
+}
