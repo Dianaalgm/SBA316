@@ -2,27 +2,35 @@
     border: solid black;
     height: 10vh;
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: blueviolet;
+    margin: 1em;
 }
 .imgContainer{
     border: solid black;
-    height: 60vh;
+    height: 46vh;
     display: flex;
     justify-content: center;
     text-align: center;
+    background-image: url(https://media1.giphy.com/media/f31DK1KpGsyMU/giphy.gif);
+    margin: 3em;
+    object-fit: contain;
 }
 .imgContainer2{
     border: solid blue;
-    height: 60vh;
+    height: 46vh;
     display: flex;
     justify-content: center;
     text-align: center;
-    background-image: url();
+    background-image: url(https://i.gifer.com/IBDx.gif);
+    margin: 3em;
+    object-fit: contain;
 }
 .midButton{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 1em;
+
 }
 #pText{
     text-align: center;

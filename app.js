@@ -14,11 +14,12 @@ div.textContent = "Here are some moods I feel throughout the day:"
 
 const changeText = () =>{
     let text = document.querySelector("#pText");
-    text.innerHTML ='This is me now...' ; 
+    text.innerHTML = " This is me now... just joking!(a little) BUT I'm having fun learning all of this for the first time." ; 
     
 }
 
+//this toggles between two css
 const toggleImg = () =>{
-    let img2 = document.querySelector('imgContainer2');
-
+    let img2 = document.querySelector('.imgContainer') ;
+    img2.classList.toggle('imgContainer2');
 }
