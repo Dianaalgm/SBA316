@@ -52,3 +52,19 @@ imageBox.addEventListener("mouseover", changeBackground);
 const laptop = document.querySelector("#myItems > li:first-of-type");
 const charger = laptop.nextElementSibling;
 console.log(charger)
+
+//form validation
+const myForm = document.getElementById('#form')
+const myName = document.getElementById('#myName')
+const errorElement = window.alert('Write your name')
+
+myForm.addEventListener('submit', (e) =>{
+    let messages = [];
+    if (myName.value === '' || myName.value == null){
+        messages.push('Write Your Name');
+    }
+
+    if(messages.length > 0){
+        errorElement.innerText = messages.join(', ');
+    }
+});
