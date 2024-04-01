@@ -30,8 +30,21 @@
     display: flex;
     justify-content: space-evenly;
     margin: 1em;
-
 }
 #pText{
     text-align: center;
+}
+.bottomContainer{
+    border: solid orange;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: solid red;
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
 }
