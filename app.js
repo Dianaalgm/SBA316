@@ -1,5 +1,6 @@
 const Body = document.body ;
 //Here I have created a new element
+window.alert('Welcome!')
 const div = document.createElement("div");
 Body.append(div);
 div.textContent = "Okay that's it for today, till next time!"
@@ -47,6 +48,7 @@ imageBox.addEventListener("mouseover", changeBackground);
 //     let div1 = document.querySelector('.textBubble');
 //     t1.appendChild(div1.cloneNode(true));
 // };
+ 
 
 //Used nextElementSibiling from a list
 const laptop = document.querySelector("#myItems > li:first-of-type");
