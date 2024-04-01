@@ -53,18 +53,24 @@ const laptop = document.querySelector("#myItems > li:first-of-type");
 const charger = laptop.nextElementSibling;
 console.log(charger)
 
-//form validation
-const myForm = document.getElementById('#form')
-const myName = document.getElementById('#myName')
-const errorElement = window.alert('Write your name')
+//attempting form validation (need help troublshooting)
+document.addEventListener('DOMContentLoaded', function(){  //dom event based validation?
+const form = document.getElementById('form')
+const myName = document.getElementById('name')
+const errorElement = document.getElementById('error')
 
-myForm.addEventListener('submit', (e) =>{
+form.addEventListener('submit', (e) =>{
+    console.log("Form Submitted") //not appearing in console ??
+    e.preventDefault(); //prevent form submission
     let messages = [];
     if (myName.value === '' || myName.value == null){
-        messages.push('Write Your Name');
+        messages.push('Name is required');
     }
 
     if(messages.length > 0){
         errorElement.innerText = messages.join(', ');
+    } else {
+        errorElement.innerText = '' ;
     }
+});
 });

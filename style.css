@@ -70,6 +70,12 @@ body{
 }
 .form{
     border: solid black;
-    height: 18vh;
+    height: 20vh;
     text-align: center;
+}
+#error{
+    color: red;
+    font-size: 15px;
+    /* border: solid yellow; */
+    height: auto;
 }
