@@ -7,7 +7,7 @@ div.textContent = "Here are some moods I feel throughout the day:"
 
 const changeText = () =>{
     let text = document.querySelector("#pText");
-    text.innerHTML = " This is me now... just joking!(a little) BUT I'm having fun learning all of this for the first time." ; 
+    text.innerHTML = " This is me now... just joking!(kind of) BUT I'm having fun learning all of this for the first time." ; 
 }
 
 //this toggles between two css
@@ -23,7 +23,6 @@ boxes.forEach((e) => (
 console.log(boxes);
 
 //event listeners
-
 const titleBox = document.getElementById("box");
 function changeColor(event){
     event.target.style.backgroundColor = "pink";
@@ -37,4 +36,13 @@ function changeBackground(events){
 }
 imageBox.addEventListener("mouseover", changeBackground);
 
+//attempting clone node
+//need some troubleshooting
+const init = function(){
+    let t1,t2,div1,temp,div2
+    t1 = document.getElementById('target1');
+    t2 = document.getElementById('target2');
 
+    div1 = document.querySelector('.textBubble');
+    t1.appendChild(div1.cloneNode(true));
+};

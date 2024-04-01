@@ -7,7 +7,7 @@
     margin: 1em;
 }
 .imgContainer{
-    border: solid black;
+    /* border: solid black; */
     height: 46vh;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
     object-fit: contain;
 }
 .imgContainer2{
-    border: solid blue;
+    /* border: solid blue; */
     height: 46vh;
     display: flex;
     justify-content: center;
@@ -35,13 +35,13 @@
     text-align: center;
 }
 .bottomContainer{
-    border: solid orange;
+    /* border: solid orange; */
     height: 10vh;
     display: flex;
     justify-content: space-evenly;
 }
 .box{
-    border: solid red;
+    /* border: solid red; */
     height: 100%;
     width: 40%;
     text-align: center;
@@ -49,13 +49,13 @@
     font-weight: bold;
 }
 .boxImages{
-    border: solid orange;
+    /* border: solid orange; */
     height: 40vh;
     display: flex;
     justify-content: space-evenly;
 }
 .secondBox{
-    border: solid red;
+    /* border: solid red; */
     height: 100%;
     width: 40%;
     text-align: center;
