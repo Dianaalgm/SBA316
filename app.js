@@ -2,7 +2,7 @@ const Body = document.body ;
 //Here I have created a new element
 const div = document.createElement("div");
 Body.append(div);
-div.textContent = "Here are some moods I feel throughout the day:"
+div.textContent = "Okay that's it for today, till next time!"
 
 
 const changeText = () =>{
@@ -37,12 +37,18 @@ function changeBackground(events){
 imageBox.addEventListener("mouseover", changeBackground);
 
 //attempting clone node
-//need some troubleshooting
-const init = function(){
-    let t1,t2,div1,temp,div2
-    t1 = document.getElementById('target1');
-    t2 = document.getElementById('target2');
+//need some help troubleshooting clone Node
 
-    div1 = document.querySelector('.textBubble');
-    t1.appendChild(div1.cloneNode(true));
-};
+// const init = function(){
+//     // let t1,t2,div1
+//     let t1 = document.getElementById('target1');
+//     let t2 = document.getElementById('target2');
+
+//     let div1 = document.querySelector('.textBubble');
+//     t1.appendChild(div1.cloneNode(true));
+// };
+
+//Used nextElementSibiling from a list
+const laptop = document.querySelector("#myItems > li:first-of-type");
+const charger = laptop.nextElementSibling;
+console.log(charger)

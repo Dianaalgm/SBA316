@@ -1,8 +1,12 @@
+body{
+    background-color: rgb(255, 231, 235);
+}
 .navBar{
     border: solid black;
     height: 10vh;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
     color: blueviolet;
     margin: 1em;
 }
